@@ -1,0 +1,78 @@
+.NavbarPrnt{
+    display: flex;
+    border: 1px solid  grey;
+    border-radius: 43px;
+    box-shadow: 0 0 18px grey;
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 1%;
+    background-color: white;
+    z-index: 99;
+    position: relative;
+
+}
+.imgdiv{
+    width: 10%;
+    text-align: center;
+}
+.sclimg{
+    width: 70%;
+    padding-top: 3%;
+    padding-left: 18%;
+}
+.sclnme{
+    font-style: italic;
+    font-family: fantasy;
+    font-size: 2rem;
+    padding-top: 2%;
+}
+.linkbtn{
+    text-decoration: none; 
+    background-color: whitesmoke;
+    border-radius: 18px;
+    color: rgb(0, 0, 0);
+    padding: 1% 4%;
+}
+.linkbtn:hover{
+    background-color: rgb(98, 168, 233);
+    border-radius: 18px;
+    color: white;
+    padding: 1% 4%;
+    box-shadow: 0 0 8px gray;
+    
+}
+
+.ulname{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+gap: 11%;
+/* margin-right: 12%; */
+margin-top: 2%;
+font-size: 1.1rem;
+}
+
+.ullist{
+width: 64%;
+display: flex;
+}
+
+.Navbar2chi{
+    display: flex;
+}
+.smlpage{
+    background-color: white;
+    height: 200px;
+    width: 11%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 13px;
+    border-top-left-radius: 2px;
+    box-shadow: 0 0 9px gray;
+    text-align: center;
+}
+.btnbtch{
+    margin: 9%;
+}

@@ -1,0 +1,65 @@
+.timetable {
+    border-collapse: collapse;
+    width: 45%;
+    background-image: linear-gradient(60deg,rgb(78, 226, 226),rgb(101, 179, 81),rgb(45, 131, 131));
+    
+     
+}
+
+.timetable td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.timetable td:first-child {
+    font-weight: bold;
+    background-color: #f2f2f2;
+    min-width: 5vw;
+    background-image: linear-gradient(60deg,rgb(45, 131, 131),rgb(101, 179, 81),rgb(45, 131, 131));
+
+}
+.bginptxt{
+    background-image: linear-gradient(60deg,rgb(101, 179, 81),rgb(45, 131, 84),rgb(45, 131, 131));
+}
+.head{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    width: 80vw;
+    margin: 2%;
+    border-radius: 5px;
+    margin-left: 9%;
+    background-color: rgba(84, 84, 202, 0.616);
+    color: white;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .head{
+        margin-left: 0%;
+        width: 90vw;
+    }
+    .table{
+        margin-left: 0%;
+        flex-wrap: wrap;
+        width: 90vw;
+    }
+    .timetable{
+        width: 88% ;
+    }
+    .classbtn{
+        margin-left: 18%;
+    }
+
+
+
+}
+.table{
+    display: flex;
+    margin-left: 8%;
+}
+.crdattnd{
+    margin-top: 3%;
+    width: 80vw;
+    margin-left: 8%;
+}

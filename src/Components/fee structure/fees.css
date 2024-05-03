@@ -1,0 +1,32 @@
+.feediv{
+    margin-top: 4%;
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin-left: 4%;
+}
+.bg-brown{
+    background-color: rgb(85, 85, 182);
+    color: white;
+    box-shadow: 0 0 8px rgb(29, 34, 34);
+    /* border-radius: 19px; */
+}
+.feep-card{
+    background-color: rgb(85, 85, 182);
+    box-shadow: 0 0 8px rgb(29, 34, 34);
+
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .feediv{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .feep-card{
+        width: 84vw;
+    }
+}
+

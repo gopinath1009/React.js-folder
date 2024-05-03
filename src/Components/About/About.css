@@ -1,0 +1,26 @@
+.abtcrd{
+    background-color: rgb(85, 85, 182);
+    width: 90vw;
+    justify-content: center;
+    /* text-align: center; */
+    margin-left: 4%;
+    border-radius: 10px;
+    color: whitesmoke;
+    box-shadow: 0 0 19px grey;
+}
+.crdcntnt{
+    text-align: justify;
+}
+.crdcntnt:hover{
+    /* background-color: yellow; */
+    border: 2px solid rgb(0, 225, 255);
+    box-shadow: 0 0 18px rgb(0,225, 225);
+    z-index: -1;
+}
+/* .prcrdcntpta{ */
+    /* background-color: brown; */
+    /* color: white; */
+/* } */
+.bg-y{
+    background-color: rgba(255, 255, 0, 0.842);
+}

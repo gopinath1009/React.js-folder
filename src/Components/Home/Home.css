@@ -1,0 +1,90 @@
+.croseldiv {
+    width: 90vw;
+    height: 90vh;
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    margin: 3%;
+    margin-left: 4%;
+}
+
+@media only screen and (min-width:320px) and (max-width:500px) {
+    .croseldiv {
+        height: 35vh;
+    }
+
+    .imgscl {
+        width: 100% !important;
+    }
+
+    .txtad {
+        font-size: 2px !important;
+        
+        /* color: red; */
+        /* width: 5%; */
+    }
+
+}
+
+@media only screen and (min-width:500px) and (max-width:1200px) {
+    .txtad {
+        font-size: 2rem !important;
+        /* color: red; */
+        /* width: 5%; */
+    }
+
+}
+
+.imgscl {
+    width: 64% !important;
+    /* height: 100%; */
+    border-radius: 9px;
+    box-shadow: 0 0 10px grey;
+
+}
+
+.txtad {
+    width: 15%;
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    /* color: rgb(231, 3, 3); */
+    font-size: 3rem;
+}
+
+.txtad2 {
+    left: 79%;
+    /* top: 15%; */
+}
+
+
+
+.bg-clr {
+    /* background-color: rgba(235, 192, 243, 0.815); */
+    background: linear-gradient(45deg, rgba(209, 100, 228, 0.893), rgba(105, 247, 181, 0.893), rgba(116, 233, 161, 0.893));
+}
+
+.mb-31 {
+    /* background-color: rgba(235, 192, 243, 0.893); */
+    background: linear-gradient(45deg, rgba(209, 100, 228, 0.893), rgba(105, 247, 181, 0.893), rgba(209, 100, 228, 0.893));
+    box-shadow: 0 0 19px grey;
+    border-radius: 9px;
+    position: relative;
+
+    /* width: 100%; */
+
+}
+
+.bglit {
+    /* background-color: aliceblue; */
+    background-color: rgba(235, 192, 243, 0.815);
+    /* height: 10vh; */
+    padding: 1%;
+    /* padding-top: 0.5%; */
+    position: sticky;
+    top: 0.5%;
+}

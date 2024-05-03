@@ -1,0 +1,43 @@
+.board{
+    font-size: 26px;
+    font-weight: 800;
+    color: purple;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 80vw;
+    box-shadow: 0 0 19px purple;
+    margin-left: 9%;
+    margin-top: 3%;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .board{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+}
+.tble{
+    margin-top: 4%;
+    width: 80vw;
+    margin-left: 9%;
+    background-color: azure;
+    border: 1px solid grey;
+    
+}
+.tble:hover{
+    box-shadow: 0 0 9px purple;
+
+}
+.addbtn{
+    margin-bottom: 1%;
+    text-align: right;
+}
+.addbtn:active{
+    color: white;
+    background-color: blue;
+}
+.actbtn{
+    margin: 1%;
+}

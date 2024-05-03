@@ -1,0 +1,62 @@
+.crdiv {
+    background-color: rgb(85, 85, 182);
+    box-shadow: 0 0 9px gray;
+    color: white;
+    margin-top: 3%;
+    padding: 5%;
+    width: 40%;
+}
+
+.crddiv2 {
+    background-color: rgb(85, 85, 182);
+    box-shadow: 0 0 9px gray;
+    color: white;
+    margin-top: 3%;
+    padding: 5%;
+    width: 60%;
+
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .flex {
+        /* display: flex; */
+        flex-wrap: wrap;
+    }
+    .crdiv{
+        width: 100%;
+    }
+    .crddiv2{
+        width: 100%;
+    }
+}
+
+.email {
+    font-size: 1.2rem;
+    margin: 1%;
+    margin-bottom: 2%;
+}
+
+.email1 {
+    font-size: 1.5rem;
+}
+
+.h1tag {
+    font-size: 3rem;
+}
+
+.size {
+    font-size: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.iconss {
+    font-size: 3rem;
+}
+
+.iconssdiv {
+    padding-right: 3%;
+    margin-top: 3%;
+}
